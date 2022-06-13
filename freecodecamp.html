@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portofolio page!</title>
+
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <style>
+      body{
+          padding:0;
+          margin:0;
+
+      }
+      .top-nav{
+          background:darkred;
+          overflow: hidden;
+          position:fixed;
+          width:100%;
+      }
+      .top-nav a
+      {
+          float:right;
+          font-size:20px;
+          font-weight: 500;
+          font-family:Arial, Helvetica, sans-serif;
+          color:#fff;
+          padding:15px 20px;
+          text-decoration: none;
+        
+      }
+      .top-nav a:hover{
+          background-color: lightskyblue;
+      }
+    .welcome
+    {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    }
+    .welcome .h1
+    {
+        font-weight:1000;
+        font-family:Arial, Helvetica, sans-serif;
+        color:#fff;
+        letter-spacing: 1px;
+        font-size:50px;
+    }
+     .p{
+        font-family: Arial,;
+        color:red;
+        font-size:45px;
+        font-style: italic;
+        opacity: 0.6;
+        letter-spacing: 1px;
+    }
+      
+      #projects
+      {
+          background: #45567d;
+          width:100%;
+          height:100%;
+         
+      }
+      .images
+      {
+        padding: 0;
+          margin:0;
+          display:flex;
+          justify-content: center;
+          justify-content: space-around;
+      }
+      img{
+          width:90%;
+          height:100%;
+          justify-content: space-around;
+          
+      }
+      #projects
+      {
+          padding: 10rem 2rem;
+      }
+      .project-title
+      {
+          margin-bottom: 5rem;
+          justify-content: center;
+          text-align: center;
+          font-weight: 500;
+          font-family: Arial, Helvetica, sans-serif;
+          color:#fff;
+        }
+        button{
+            font-size:1rem;
+            color:white;
+            background:#303841;
+            border:none;
+            border-radius:2px;
+            padding:1rem 2rem;
+            
+            
+            transition: 0.3s ease-out;
+            
+            
+        }
+        .bttn:hover{
+            background: red;
+            transform: translateX(1px);
+           
+        }
+            .profile-link
+            {
+                width: 100%;
+                height:100%;
+                background:#303841;
+            }
+            .profile-link{
+                padding:0;
+                margin:0;
+                width:100%;
+                height:90vh;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .work-heading
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:80px;
+                margin-bottom:10px;
+                color:white;
+                font-weight:600;
+            }
+            .down-heading
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:25px;
+               
+                color:white;
+                
+            }
+            .icons
+            {
+                font-size:1.5rem;
+                color:white;
+                text-shadow: 2px 2px 1px #1f1f1f;
+                transition:0.3 ease-out;
+            
+            }
+            .icons .fa
+            {
+                justify-content: space-between;
+                align-items:center;
+                padding:10px;
+                transition: 0.3s ease-out;
+                cursor: pointer;
+                margin-bottom: soild red 5px;
+        
+            }
+            .icons .fa a
+            {
+                text-decoration: none;
+                color:white;
+                list-style-type: none;
+            }
+            .fa:hover{
+                transform:translateY(8px);
+            }
+            .footer
+            {
+                padding:0;
+                margin:0;
+                width:100%;
+                margin-top:150px;
+            }
+            .line
+            {
+             
+                border-bottom:solid red 5px;
+            }
+            .finfo
+            {
+                padding:0;
+                margin:0;
+                display:flex;
+            justify-content: space-between;
+
+            }
+            .info
+            {
+                font-size:20px;
+                color:white;
+                margin-left:100px;
+                margin-top:10px;
+                padding:0;
+            }
+            .by
+            {
+                font-size:18px;
+                color:white;
+                float:right;
+                margin-right:10px;
+                margin-top:20px;
+            }
+  </style>
+</head>
+<body>
+    
+      
+   
+   <div class="top-nav">
+       <a href="#pl">Contact</a>
+       <a href="#img">Work</a>
+        <a href="#wl">About</a>
+   </div>
+   <section class="welcome" id="wl"> 
+       
+       <h1 class="h1">Hey I am Shashidhar</h1>
+       <p class="p"> a web developer</p>
+
+   </section>
+   <section id="projects">
+       <h1 class="project-title">These are some of my projects</h1>
+       <div class="images">
+           <div class="img1">
+               <img src="D:\practice\tribute.jpg" alt="">
+           </div>
+
+           <div class="img1">
+            <img src="D:\practice\document.PNG" alt=""></div>
+
+            <div class="img1">
+                <img src="D:\practice\survey form.png" alt=""></div>
+
+
+            
+        </div>
+       </div><br><br>
+       <div class="images" id="img">
+           <div class="img1">
+               <img src="D:\practice\4.jpg" alt="">
+           </div>
+
+           <div class="img1">
+            <img src="D:\practice\5.png" alt="">
+        </div>
+
+        <div class="img1">
+            <img src="D:\practice\6.png" alt="">
+        </div>
+       </div><br>
+       <div class="row">
+
+        <div class="col-sm-5">
+
+        </div>
+        
+        <div class="col-sm-5">
+            <button type="button" class="bttn"> Show all ></button>
+        </div>
+    </div>
+      
+      
+   </section>
+
+    <section class="profile-link" id="pl">
+        <h1 class="work-heading">
+            Let's work together...
+        </h1>
+        <h5 class="down-heading">
+            How do you take your coffee?
+        </h5>
+        <br>
+        <div class="icons">
+        <i class="fa fa-facebook"> <a href="https://www.facebook.com/">Facebook</a></i>
+        <i class="fa fa-twitter"> <a href="https://twitter.com/login">Twitter</a></i>
+        <i class="fa fa-github"> <a href="https://www.google.com/search?q=github&oq=github&aqs=chrome..69i57j0l5.1763j0j7&sourceid=chrome&ie=UTF-8">Github</a></i>
+        <i class="fa fa-envelope"> <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Send a mail</a></i>
+        <i class="fa fa-mobile">Call me</i>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="line"></div>
+        <div class="finfo">
+
+       
+        <p class="info">**this is a just fake portofolio and contact details are not real</p>
+            <p class="by">created for bootcamp</p>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
